@@ -1,19 +1,5 @@
 <?php
 /**
- * Implements hook_webform_select_options_info().
- */
-function ucm_predefined_options_webform_select_options_info() {
-  $items = array();
-
-  $items['departments'] = array(
-    'title' => t('UC Merced Department List'),
-    'options callback' => '_ucm_predefined_options_departments',
-  );
-
-  return $items;
-}
-
-/**
  * Implements hook_list_option_info().
  */
 function ucm_predefined_options_list_option_info() {
