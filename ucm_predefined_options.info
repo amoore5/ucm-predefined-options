@@ -4,3 +4,5 @@ package = "UC Merced"
 version = VERSION
 core = 7.x
 files[] = ucm_predefined_options.module
+
+dependencies[] = list_predefined_options
