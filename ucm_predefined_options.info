@@ -1,0 +1,6 @@
+name = UCM Predefined Options
+description = Used to return a custom list of UC Merced specific options.
+package = "UC Merced"
+version = VERSION
+core = 7.x
+files[] = ucm_predefined_options.module
